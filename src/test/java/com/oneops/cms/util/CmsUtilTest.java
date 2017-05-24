@@ -1947,6 +1947,7 @@ public class CmsUtilTest {
 		assertFalse(CmsUtil.isOrgLevel("/test-org/a2/"));
 		assertFalse(CmsUtil.isOrgLevel("/test-org/a2/dev"));
 		assertFalse(CmsUtil.isOrgLevel("/test-org/a2/dev/"));
+                assertFalse(CmsUtil.isOrgLevel("test-org"));
 	}
 
 }
